@@ -73,15 +73,13 @@ class _BookingState extends State<Booking> {
                           closeChild: Text(
                             "On",
                             style: TextStyle(
-                                color: Color.fromARGB(255, 32, 56, 5),
-                                fontSize: 11),
+                                color: Color(0xFF63be01), fontSize: 11),
                           ),
                           openChild: Text(
                             "Off",
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 34, 54, 12),
-                                fontSize: 11),
+                            style: TextStyle(color: Colors.white, fontSize: 11),
                           ),
+                          sliderColor: Colors.white,
                         ),
                       ],
                     ),
